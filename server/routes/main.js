@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Define routes
 router.get('/', (req, res) => {
-  res.send("Hello world");
+  res.render("index");
 });
 
 // Export the router
